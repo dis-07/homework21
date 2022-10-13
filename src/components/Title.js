@@ -6,11 +6,11 @@ const Title = ({name, type}) => {
     //     className,
     // }
 
-    if (type === 'bold') {
-        // return <p {...atributes}> {name} </p>
-        return <p style={{ fontWeight: type }}>{name}</p>
-    }   
-    return <p> {name} </p>
+    // if (type) {
+    //     return <p {...atributes}> {name} </p>
+    // }   
+    // return <p> {name} </p>
+    return <p style={{ fontWeight: type }}>{name}</p>
 }
 
 export default Title;
